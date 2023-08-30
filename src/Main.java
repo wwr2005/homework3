@@ -27,25 +27,6 @@ public class Main {
         float pages = 480 / allStudents;
         System.out.printf("На каждого ученика рассчитано " + pages + " листов бумаги");
         {
-            int bottlesPerCycle = 16;
-            int minutesPerCycle = 2;
-            int totalMinutes = bottlesPerCycle / minutesPerCycle;
-            int time20 = 20;
-            int bottletime20 = (totalMinutes * time20);
-
-            System.out.printf("За " + time20 + "  минут машина произвела " + bottletime20 + " штук бутылок");
-
-            int day = 1140;
-            int bottleDay = (day * totalMinutes);
-            System.out.printf("За " + day + "  минут машина произвела " + bottleDay + " штук бутылок");
-
-            int threeDays = 4320;
-            int bottleThreeDays = (threeDays * totalMinutes) ;
-            System.out.printf("За " + threeDays + "  минут машина произвела " + bottleThreeDays + " штук бутылок");
-
-            long month = 34200;
-            long bottleMonth = (month * totalMinutes);
-            System.out.printf("За " + month + "  минут машина произвела " + bottleMonth + " штук бутылок");
 
             byte allClass = 120 / (2 + 4);
             byte whitePaint = 20 * 2;
