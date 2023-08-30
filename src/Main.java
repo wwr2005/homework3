@@ -47,6 +47,7 @@ public class Main {
             long bottleMonth = (month * totalMinutes);
             System.out.printf("За " + month + "  минут машина произвела " + bottleMonth + " штук бутылок");
 
+
             byte allClass = 120 / (2 + 4);
             byte whitePaint = 20 * 2;
             byte brownPaint = 20 * 4;
